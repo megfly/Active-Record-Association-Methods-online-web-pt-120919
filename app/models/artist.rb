@@ -15,6 +15,6 @@ class Artist < ActiveRecord::Base
   end
   
   def get_first_song
-    self.songs
+    self.songs.first
   end
 end
